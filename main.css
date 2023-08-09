@@ -1,0 +1,125 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.a
+{
+height: 100vh;
+width: 100vw;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+.a1
+{
+    height: 60px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: red;
+    text-decoration: underline;
+}
+.a2,.a3,.a4
+{
+    height: 100px;
+    width: 500px;
+    margin: 5px 0px;
+}
+.a2
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+.a3
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+#search
+{
+    padding: 15px;
+    width: 300px;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    font-size: large;
+    color: red;
+}
+#submit
+{
+    padding: 10px;
+    width: 100px;
+    margin-left: 10px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    font-size: large;
+    color: red;
+}
+#submit:hover
+{
+    transition: 2s;
+background-color: rgb(235, 172, 94);
+}
+#images
+{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+.a4{
+    height:350px;
+    width: 500px;
+    border-radius: 20px ;
+    /* box-shadow: 5px 10px 15px 15px rgb(242, 116, 116); */
+    background-image: url(nature3.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.a41
+{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.a42
+{
+    height:200px;
+    width:100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.a42 p
+{
+    font-size: xx-large;
+    line-height: 0px;
+    color: rgb(233, 10, 14);
+    font-weight: bolder;
+}
+.a43
+{
+    height:80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    font-size: xx-large;
+    color: rgb(3, 48, 137);
+}
+.a43 p
+{
+    line-height: 0px;
+    font-size: x-large;
+    font-weight: bolder;
+}
